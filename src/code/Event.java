@@ -42,7 +42,6 @@ public class Event implements ActionListener{
 	 */
 	@Override
 	public void actionPerformed(ActionEvent e) {
-		UI ui = new UI();
 		int guessed = getNumber();
 		if(guessed > _randomNumber){
 			_button.setBackground(Color.BLUE);
